@@ -1,0 +1,511 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1689405744284841, "dur": 4549123, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689405744285233, "dur": 1560, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689405744286795, "dur": 36919, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689405744323716, "dur": 1009943, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689405745333662, "dur": 3498476, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689405748832139, "dur": 1824, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689405748834483, "dur": 15, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1689405745080548, "dur": 235919, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1689405745081969, "dur": 65621, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1689405745291886, "dur": 6608, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1689405745298498, "dur": 17955, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1689405745299440, "dur": 16008, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1689405745323155, "dur": 1803, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1689405745322065, "dur": 2936, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689405748834624, "dur": 216, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1689405745394829, "dur":1338, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689405745396182, "dur":65, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1689405745396261, "dur":23, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1689405745396284, "dur":169, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1689405745396475, "dur":692, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689405745397167, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689405748803279, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689405748803285, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689405748803295, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689405748803299, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689405748803312, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689405748803314, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689405748803322, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689405748803325, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689405748803332, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689405748803348, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689405748803371, "dur":1714, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1689405745396941, "dur":233, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405745397175, "dur":3858, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405745401046, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1689405745401054, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405745401916, "dur":323, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1689405745402244, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1689405745402294, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405745402449, "dur":2377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1689405745404828, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1689405745404871, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405745405032, "dur":15712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1689405745420764, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1689405745420794, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405745420802, "dur":10635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1689405745431457, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1689405745431491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405745432011, "dur":10611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1689405745442642, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1689405745442680, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405745442735, "dur":9120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1689405745451877, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1689405745451935, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405745452344, "dur":20909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1689405745473274, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1689405745473314, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405745473323, "dur":13636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1689405745486977, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1689405745487006, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405745487012, "dur":26670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1689405745513702, "dur":57950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405745571656, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405745572039, "dur":1504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405745573569, "dur":29780, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil.exe" }}
+,{ "pid":12345, "tid":1, "ts":1689405745603353, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405745603360, "dur":3972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil.exe" }}
+,{ "pid":12345, "tid":1, "ts":1689405745607381, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1689405745607427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405745607652, "dur":54370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1689405745662061, "dur":56615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405745718680, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405745719078, "dur":1002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405745720117, "dur":17661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405745737783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405745737925, "dur":810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405745738769, "dur":22449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405745761223, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405745761232, "dur":1256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405745762527, "dur":34254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405745796786, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405745796794, "dur":3969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405745800814, "dur":19191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405745820009, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405745820018, "dur":1160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405745821217, "dur":21809, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405745843031, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405745843039, "dur":2240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405745845324, "dur":20366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405745865695, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405745865704, "dur":938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405745866685, "dur":15668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405745882358, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405745882366, "dur":928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405745883336, "dur":18014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405745901377, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405745901386, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405745902380, "dur":64997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405745967381, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405745967389, "dur":995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405745968419, "dur":32036, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405746000459, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405746000468, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405746001485, "dur":118334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405746119824, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405746119832, "dur":1611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405746121512, "dur":79440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405746200957, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405746200965, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405746202142, "dur":63162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405746265307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405746265313, "dur":1100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405746266449, "dur":28010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405746294484, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405746294493, "dur":916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405746295445, "dur":47111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405746342561, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405746342569, "dur":995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405746343600, "dur":91004, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405746434608, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405746434683, "dur":963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405746435681, "dur":181689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405746617381, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405746617389, "dur":986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405746618420, "dur":20296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405746638720, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405746638728, "dur":1559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405746640472, "dur":25208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405746665684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405746665692, "dur":907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405746666639, "dur":71773, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405746738416, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405746738423, "dur":11492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405746749954, "dur":24747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405746774709, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405746774726, "dur":3762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405746778530, "dur":109538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405746888072, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405746888081, "dur":9070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405746897189, "dur":87116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405746984309, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405746984318, "dur":1581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405746985956, "dur":160271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405747146231, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405747146239, "dur":1015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405747147291, "dur":117233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405747264529, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405747264537, "dur":1714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405747266291, "dur":479406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405747745701, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405747745710, "dur":1029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405747746776, "dur":166817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405747913598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405747913606, "dur":1430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405747915073, "dur":188715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405748103793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405748103801, "dur":919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405748104756, "dur":63197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405748167958, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405748167966, "dur":1001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405748169003, "dur":162971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405748331996, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405748332003, "dur":6444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405748338498, "dur":116338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405748454841, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405748454849, "dur":5794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405748460702, "dur":76237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405748536942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405748536948, "dur":2403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689405748539424, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1689405748539469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405748539476, "dur":2133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1689405748541717, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1689405748541772, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405748541781, "dur":2185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1689405748544080, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1689405748544257, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405748544270, "dur":1273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1689405748545585, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1689405748545626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405748545632, "dur":849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1689405748546516, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1689405748546629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689405748546635, "dur":835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1689405748547504, "dur":255748, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689405745397282, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689405745397282, "dur":3757, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689405745401047, "dur":32371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1689405745433422, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689405745433447, "dur":1020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1689405745434487, "dur":8961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1689405745443451, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689405745443459, "dur":803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1689405745444282, "dur":21670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1689405745465956, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689405745465965, "dur":1043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1689405745467030, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1689405745467064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689405745467128, "dur":55747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1689405745522898, "dur":304975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405745827878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689405745828220, "dur":4852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405745833093, "dur":116235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405745949333, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689405745949342, "dur":1621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405745951009, "dur":43271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405745994285, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689405745994293, "dur":920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405745995254, "dur":41313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405746036572, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689405746036580, "dur":1113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405746037746, "dur":17971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405746055722, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689405746055730, "dur":1159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405746056945, "dur":44771, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405746101720, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689405746101729, "dur":907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405746102673, "dur":34644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405746137322, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689405746137330, "dur":989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405746138354, "dur":55150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405746193508, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689405746193516, "dur":1097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405746194649, "dur":38682, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405746233334, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689405746233342, "dur":896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405746234292, "dur":29995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405746264312, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689405746264321, "dur":970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405746265329, "dur":17036, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405746282368, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689405746282374, "dur":814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405746283221, "dur":53351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405746336576, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689405746336585, "dur":1004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405746337630, "dur":212077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405746549712, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689405746549721, "dur":1086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405746550844, "dur":347511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405746898359, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689405746898367, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405746899713, "dur":197857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405747097594, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689405747097603, "dur":1022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405747098660, "dur":66078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405747164742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689405747164749, "dur":1037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405747165821, "dur":113042, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405747278989, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689405747278998, "dur":1201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405747280237, "dur":37706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405747317948, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689405747317956, "dur":963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405747319001, "dur":63469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405747382474, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689405747382483, "dur":1046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405747383567, "dur":70210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405747453781, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689405747453789, "dur":916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405747454745, "dur":688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405747455437, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689405747455445, "dur":4404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405747459961, "dur":127835, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405747587800, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689405747587807, "dur":11475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405747599340, "dur":148818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405747748182, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689405747748190, "dur":1246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405747749473, "dur":130545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405747880022, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689405747880031, "dur":1030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405747881098, "dur":47357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405747928460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689405747928468, "dur":1289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405747929793, "dur":72864, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405748002662, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689405748002670, "dur":1323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405748004030, "dur":226684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405748230719, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689405748230727, "dur":1819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405748232584, "dur":148973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405748381562, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689405748381571, "dur":1049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405748382656, "dur":397909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405748780570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689405748780578, "dur":2688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689405748783302, "dur":19893, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405745397346, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405745397346, "dur":3691, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405745401046, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1689405745401106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405745402596, "dur":17062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1689405745419688, "dur":23831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1689405745443522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405745443529, "dur":1868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1689405745445420, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1689405745445454, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405745445461, "dur":17481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1689405745462966, "dur":8158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1689405745471129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405745471137, "dur":875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1689405745472031, "dur":13544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1689405745485579, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405745485588, "dur":1002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1689405745486612, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1689405745486645, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405745486651, "dur":37118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1689405745523796, "dur":683884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405746207684, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405746207691, "dur":24888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405746232602, "dur":32217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405746264822, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405746264829, "dur":23396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405746288263, "dur":38290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405746326557, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405746326565, "dur":950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405746327552, "dur":43640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405746371197, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405746371206, "dur":876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405746372116, "dur":198079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405746570858, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405746570935, "dur":9856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405746580829, "dur":114051, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405746694884, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405746694891, "dur":55200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405746750127, "dur":29842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405746779974, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405746779983, "dur":1122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405746781142, "dur":18599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405746799746, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405746799754, "dur":834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405746800624, "dur":169751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405746970379, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405746970387, "dur":1888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405746972313, "dur":24947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405746997265, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405746997273, "dur":1144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405746998459, "dur":181971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405747180435, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405747180442, "dur":960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405747181444, "dur":101457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405747282905, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405747282913, "dur":5580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405747288530, "dur":78773, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405747367307, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405747367315, "dur":1463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405747368866, "dur":65427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405747434297, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405747434305, "dur":870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405747435211, "dur":736, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405747435950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405747435958, "dur":835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405747436829, "dur":61447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405747498283, "dur":61, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405747498351, "dur":1099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405747499487, "dur":301899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405747801392, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405747801400, "dur":2480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405747803919, "dur":160642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405747964566, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405747964572, "dur":880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405747965485, "dur":366244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405748331733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405748331741, "dur":1887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405748333664, "dur":163866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405748497535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405748497542, "dur":1489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689405748499071, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1689405748499234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405748499651, "dur":845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1689405748500537, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1689405748500574, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405748500610, "dur":873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1689405748501518, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1689405748501553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405748501559, "dur":1343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1689405748502938, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1689405748502980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405748502986, "dur":756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1689405748503776, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1689405748503811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405748503817, "dur":844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1689405748504696, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1689405748504786, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405748504791, "dur":16754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1689405748521582, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1689405748521617, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405748521623, "dur":12028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1689405748533688, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1689405748533856, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405748533927, "dur":784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1689405748534746, "dur":714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1689405748535464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405748535470, "dur":870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1689405748536378, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1689405748536414, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405748536419, "dur":845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1689405748537298, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1689405748537333, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689405748537337, "dur":11036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1689405748548428, "dur":254795, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689405745397375, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689405745397375, "dur":3661, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689405745401047, "dur":124863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1689405745525915, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689405745526204, "dur":925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1689405745527152, "dur":217485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1689405745744663, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689405745744670, "dur":1631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1689405745746322, "dur":34738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405745781078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689405745781094, "dur":1752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405745782883, "dur":32325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405745815213, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689405745815231, "dur":1460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405745816728, "dur":34986, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405745851719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689405745851727, "dur":4336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405745856120, "dur":27433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405745883557, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689405745883564, "dur":1280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405745884883, "dur":17148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405745902035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689405745902110, "dur":1276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405745903421, "dur":17885, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405745921311, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689405745921319, "dur":1016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405745922371, "dur":88745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405746011121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689405746011129, "dur":1055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405746012218, "dur":222070, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405746234291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689405746234298, "dur":9746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405746244080, "dur":20208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405746264315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689405746264322, "dur":980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405746265339, "dur":16587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405746281930, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689405746281938, "dur":905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405746282878, "dur":15789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405746298672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689405746298680, "dur":964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405746299681, "dur":65320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405746365006, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689405746365014, "dur":1037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405746366088, "dur":128588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405746494681, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689405746494689, "dur":2437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405746497163, "dur":197241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405746694413, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689405746694465, "dur":1286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405746695789, "dur":115559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405746811352, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689405746811361, "dur":978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405746812379, "dur":19336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405746831719, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689405746831727, "dur":936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405746832698, "dur":100224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405746932927, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689405746932935, "dur":877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405746933867, "dur":70954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405747004825, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689405747004834, "dur":1069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405747005971, "dur":63026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405747069001, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689405747069009, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405747070137, "dur":64596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405747134738, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689405747134747, "dur":995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405747135781, "dur":211389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405747347175, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689405747347183, "dur":1107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405747348329, "dur":54532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405747402885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689405747402893, "dur":1022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405747403951, "dur":46048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405747450004, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689405747450013, "dur":1070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405747451120, "dur":659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405747451783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689405747451790, "dur":907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405747452732, "dur":110039, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405747562775, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689405747562784, "dur":936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405747563756, "dur":90689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405747654450, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689405747654458, "dur":7237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405747661735, "dur":301636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405747963375, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689405747963383, "dur":1215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405747964638, "dur":215190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405748179832, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689405748179840, "dur":1594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405748181539, "dur":220313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405748401857, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689405748401865, "dur":937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405748402837, "dur":399003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405748801845, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689405748801853, "dur":1222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo Legion/Desktop/EndlessGameUnity/zort-mobil_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689405748803114, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1689405748803117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689405748811208, "dur":2963, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1689405748834898, "dur": 1694, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689405748834471, "dur": 2151, "ph": "X", "name": "Write chrome-trace events", "args": {} },
